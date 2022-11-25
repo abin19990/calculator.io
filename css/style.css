@@ -1527,7 +1527,7 @@ a:hover {
       float: right;
       background: #81d5ec;
       padding: 10px 50px;
-      margin-right: -71px;
+      margin-right: -66px;
       margin-bottom: -50px; }
       .calculator .form .price-box small {
         width: 100%;
@@ -3110,7 +3110,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
    .calculator .button{
 
     margin: 1px;
-    padding: 20px;
+    padding: 15px;
    } 
 
   .footer-bar h2 {
