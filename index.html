@@ -67,7 +67,7 @@
                 <input class="button ml-4" type="button"  value="0"  onclick = "form1.answer.value += '0' ">
                 <input class="button ml-2" type="button"  value="."  onclick = "form1.answer.value += '.' ">
                 <input class="button ml-2" type="button"  value="C"  onclick = "form1.answer.value += ' ' ">
-                <input class="button ml-2" type="button"  value="/"  onclick = "form1.answer.value += '/' ">
+                <input class="button ml-2" type="button"  value="/"  onclick = "form1.answer.value.slice(0, - 1);">
                 </div>
 
                 <div class="price-box mt-5 button" type="submit" onclick = "form1.answer.value = eval(form1.answer.value) "> <small>Calculate</small> <span>=</span> </div>
